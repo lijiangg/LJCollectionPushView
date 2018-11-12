@@ -4,4 +4,4 @@
 
 如有意见请留言 求❤️❤️❤️❤️❤️❤️
 
-! [image] (https://github.com/lijiangg/LJCollectionPushView/blob/master/Untitled.gif)
+![image](https://github.com/lijiangg/LJCollectionPushView/blob/master/Untitled.gif)
