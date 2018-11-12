@@ -1,2 +1,6 @@
+# LJCollectionPushView
 
-dsdsds
+模仿豆瓣跳转  storyboard+xib页面搭建  集成方便快捷  
+
+如有意见请留言 求❤️❤️❤️❤️❤️❤️
+
