@@ -1,0 +1,5 @@
+target 'ScroPushDemo' do
+
+pod 'Masonry'
+
+end

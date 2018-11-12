@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<LJCollectionPushViewDelegate>
+
 
 @end
 
@@ -17,8 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    _pushView.dataArray = @[@"dd",@"dssaf",@"fjjhjfk",@"dsada",
+                            @"dd",@"dssaf",@"fjjhjfk",@"dsada",
+                            @"dd",@"dssaf",@"fjjhjfk",@"dsada"];
 }
 
+- (void)turnToViewController {
+    [self.navigationController pushViewController:[UIViewController new] animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

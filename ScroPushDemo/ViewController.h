@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LJCollectionPushView.h"
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet LJCollectionPushView *pushView;
+
 
 
 @end

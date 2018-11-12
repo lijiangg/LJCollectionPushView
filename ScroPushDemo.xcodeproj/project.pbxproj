@@ -15,6 +15,13 @@
 		B15742D02195727C00EFF1DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B15742CF2195727C00EFF1DC /* main.m */; };
 		B15742DA2195727C00EFF1DC /* ScroPushDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B15742D92195727C00EFF1DC /* ScroPushDemoTests.m */; };
 		B15742E52195727C00EFF1DC /* ScroPushDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B15742E42195727C00EFF1DC /* ScroPushDemoUITests.m */; };
+		B15742F3219572BA00EFF1DC /* LJCollectionPushView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15742F2219572BA00EFF1DC /* LJCollectionPushView.xib */; };
+		B15742F621957E3500EFF1DC /* LJCollectionPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = B15742F521957E3500EFF1DC /* LJCollectionPushView.m */; };
+		B15742F921957F4200EFF1DC /* LJCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = B15742F821957F4200EFF1DC /* LJCurveView.m */; };
+		B15742FB21957F4C00EFF1DC /* LJCurveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B15742FA21957F4C00EFF1DC /* LJCurveView.xib */; };
+		B1B841A32199498000C291B2 /* LJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B841A12199498000C291B2 /* LJCollectionViewCell.m */; };
+		B1B841A42199498000C291B2 /* LJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1B841A22199498000C291B2 /* LJCollectionViewCell.xib */; };
+		B4B60CC60CBB5B9F7E003BBB /* libPods-ScroPushDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29427BB9C7C70423B221559A /* libPods-ScroPushDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2857ECBA8683C4074E8123BE /* Pods-ScroPushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScroPushDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScroPushDemo/Pods-ScroPushDemo.release.xcconfig"; sourceTree = "<group>"; };
+		29427BB9C7C70423B221559A /* libPods-ScroPushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScroPushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15742BD2195727900EFF1DC /* ScroPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScroPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15742C02195727900EFF1DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B15742C12195727900EFF1DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		B15742E02195727C00EFF1DC /* ScroPushDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScroPushDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15742E42195727C00EFF1DC /* ScroPushDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScroPushDemoUITests.m; sourceTree = "<group>"; };
 		B15742E62195727C00EFF1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15742F2219572BA00EFF1DC /* LJCollectionPushView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LJCollectionPushView.xib; sourceTree = "<group>"; };
+		B15742F421957E3500EFF1DC /* LJCollectionPushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCollectionPushView.h; sourceTree = "<group>"; };
+		B15742F521957E3500EFF1DC /* LJCollectionPushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCollectionPushView.m; sourceTree = "<group>"; };
+		B15742F721957F4200EFF1DC /* LJCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCurveView.h; sourceTree = "<group>"; };
+		B15742F821957F4200EFF1DC /* LJCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCurveView.m; sourceTree = "<group>"; };
+		B15742FA21957F4C00EFF1DC /* LJCurveView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LJCurveView.xib; sourceTree = "<group>"; };
+		B1B841A02199498000C291B2 /* LJCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCollectionViewCell.h; sourceTree = "<group>"; };
+		B1B841A12199498000C291B2 /* LJCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCollectionViewCell.m; sourceTree = "<group>"; };
+		B1B841A22199498000C291B2 /* LJCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LJCollectionViewCell.xib; sourceTree = "<group>"; };
+		DE18CA82F62F295530CD7F1E /* Pods-ScroPushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScroPushDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScroPushDemo/Pods-ScroPushDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B60CC60CBB5B9F7E003BBB /* libPods-ScroPushDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		745F3842F03ABF6BBC5E7218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE18CA82F62F295530CD7F1E /* Pods-ScroPushDemo.debug.xcconfig */,
+				2857ECBA8683C4074E8123BE /* Pods-ScroPushDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DD7609A115ACB1EE777EB79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29427BB9C7C70423B221559A /* libPods-ScroPushDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B15742B42195727900EFF1DC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				B15742D82195727C00EFF1DC /* ScroPushDemoTests */,
 				B15742E32195727C00EFF1DC /* ScroPushDemoUITests */,
 				B15742BE2195727900EFF1DC /* Products */,
+				745F3842F03ABF6BBC5E7218 /* Pods */,
+				8DD7609A115ACB1EE777EB79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +144,15 @@
 				B15742C12195727900EFF1DC /* AppDelegate.m */,
 				B15742C32195727900EFF1DC /* ViewController.h */,
 				B15742C42195727900EFF1DC /* ViewController.m */,
+				B15742F421957E3500EFF1DC /* LJCollectionPushView.h */,
+				B15742F521957E3500EFF1DC /* LJCollectionPushView.m */,
+				B15742F2219572BA00EFF1DC /* LJCollectionPushView.xib */,
+				B1B841A02199498000C291B2 /* LJCollectionViewCell.h */,
+				B1B841A12199498000C291B2 /* LJCollectionViewCell.m */,
+				B1B841A22199498000C291B2 /* LJCollectionViewCell.xib */,
+				B15742F721957F4200EFF1DC /* LJCurveView.h */,
+				B15742F821957F4200EFF1DC /* LJCurveView.m */,
+				B15742FA21957F4C00EFF1DC /* LJCurveView.xib */,
 				B15742C62195727900EFF1DC /* Main.storyboard */,
 				B15742C92195727C00EFF1DC /* Assets.xcassets */,
 				B15742CB2195727C00EFF1DC /* LaunchScreen.storyboard */,
@@ -139,6 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B15742E92195727C00EFF1DC /* Build configuration list for PBXNativeTarget "ScroPushDemo" */;
 			buildPhases = (
+				B2CDA4FBE80900794536FADD /* [CP] Check Pods Manifest.lock */,
 				B15742B92195727900EFF1DC /* Sources */,
 				B15742BA2195727900EFF1DC /* Frameworks */,
 				B15742BB2195727900EFF1DC /* Resources */,
@@ -235,8 +284,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15742FB21957F4C00EFF1DC /* LJCurveView.xib in Resources */,
 				B15742CD2195727C00EFF1DC /* LaunchScreen.storyboard in Resources */,
+				B1B841A42199498000C291B2 /* LJCollectionViewCell.xib in Resources */,
 				B15742CA2195727C00EFF1DC /* Assets.xcassets in Resources */,
+				B15742F3219572BA00EFF1DC /* LJCollectionPushView.xib in Resources */,
 				B15742C82195727900EFF1DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +309,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B2CDA4FBE80900794536FADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScroPushDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B15742B92195727900EFF1DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B15742C52195727900EFF1DC /* ViewController.m in Sources */,
+				B15742F921957F4200EFF1DC /* LJCurveView.m in Sources */,
+				B1B841A32199498000C291B2 /* LJCollectionViewCell.m in Sources */,
 				B15742D02195727C00EFF1DC /* main.m in Sources */,
+				B15742F621957E3500EFF1DC /* LJCollectionPushView.m in Sources */,
 				B15742C22195727900EFF1DC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +511,7 @@
 		};
 		B15742EA2195727C00EFF1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE18CA82F62F295530CD7F1E /* Pods-ScroPushDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +528,7 @@
 		};
 		B15742EB2195727C00EFF1DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2857ECBA8683C4074E8123BE /* Pods-ScroPushDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
